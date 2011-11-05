@@ -1,6 +1,6 @@
-GSM-NETWORK-TRACKER v0.01
+GSM-NETWORK-TRACKER v0.02
 
--What ist this?
+-What is this?
 The intention behind GSM-NETWORK-TRACKER is to create a tool which will be capable of estimating the position of GSM and UMTS basestations around you and display them on a map. 
 
 This tool will be devided in two parts: The actual tracker, which is an Android application (currently running on 2.3.3) to collect the data and a python script which does visualization.
