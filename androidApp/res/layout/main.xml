@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Simple Cell Info"
+    />
+    
+ <TextView android:text="CellID: " android:id="@+id/CellID"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"/>
+ 
+ <TextView android:text="Lac: " android:id="@+id/Lac"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"/>
+ 
+ <TextView android:text="Mcc: " android:id="@+id/Mcc"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"/>
+ 
+ <TextView android:text="Mnc: " android:id="@+id/Mnc"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"/>
+  
+   <TextView android:text="GSM Cinr: " android:id="@+id/Cinr"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"/>
+  
+     <TextView android:text="Long: " android:id="@+id/longitude"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"/>
+  
+     <TextView android:text="Lat: " android:id="@+id/latitude"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"/>
+  
+     <TextView android:text="Acc: " android:id="@+id/acc"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"/>
+  
+ 
+</LinearLayout>
